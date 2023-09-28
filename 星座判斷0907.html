@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>星座判斷</title>
+</head>
+
+<body>
+  <script>
+    const name = prompt('請輸入名字')
+    const month = prompt('請輸出生月份')
+    const date = prompt('請輸入出生日期')
+    let star = ''
+    if (month === 1) {
+      if (1 <= date && date <= 20) {
+        star = '魔羯'
+      } else if (21 <= date && date <= 31) {
+        star = '水瓶'
+      }
+    } else if (month == 2) {
+      if (1 <= date && date <= 20) {
+        star = '水瓶'
+      } else if (21 <= date && date <= 28) {
+        star = '雙魚'
+      }
+    } else if (month == 3) {
+      if (1 <= date && date <= 20) {
+        star = '雙魚'
+      } else if (21 <= date && date <= 31) {
+        star = '白羊'
+      }
+    } else if (month == 4) {
+      if (1 <= date && date <= 20) {
+        star = '白羊'
+      } else if (21 <= date && date <= 30) {
+        star = '金牛'
+      }
+    } else if (month == 5) {
+      if (1 <= date && date <= 20) {
+        star = '金牛'
+      } else if (21 <= date && date <= 31) {
+        star = '雙子'
+      }
+    } else if (month == 6) {
+      if (1 <= date && date <= 20) {
+        star = '雙子'
+      } else if (21 <= date && date <= 30) {
+        star = '巨蟹'
+      }
+    } else if (month == 7) {
+      if (1 <= date && date <= 20) {
+        star = '巨蟹'
+      } else if (21 <= date && date <= 31) {
+        star = '獅子'
+      }
+    } else if (month == 8) {
+      if (1 <= date && date <= 20) {
+        star = '獅子'
+      } else if (21 <= date && date <= 31) {
+        star = '處女'
+      }
+    } else if (month == 9) {
+      if (1 <= date && date <= 20) {
+        star = '處女'
+      } else if (21 <= date && date <= 30) {
+        star = '天秤'
+      }
+    } else if (month == 10) {
+      if (1 <= date && date <= 20) {
+        star = '天秤'
+      } else if (21 <= date && date <= 31) {
+        star = '天蠍'
+      }
+    } else if (month == 11) {
+      if (1 <= date && date <= 20) {
+        star = '天蠍'
+      } else if (21 <= date && date <= 30) {
+        star = '射手'
+      }
+    } else if (month == 12) {
+      if (1 <= date && date <= 20) {
+        star = '射手'
+      } else if (21 <= date && date <= 31) {
+        sarr = '魔羯'
+      }
+    }
+    document.write(`${name}你好，你的星座是${star}座`)
+  </script>
+</body>
+
+</html>
